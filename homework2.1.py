@@ -1,4 +1,4 @@
-n = int(input("Введіть 5-значне число: "))
+n = int(input("Please enter a five-digit number: "))
 
 d1 = n // 10000          # перша цифра
 d2 = (n // 1000) % 10    # друга цифра
