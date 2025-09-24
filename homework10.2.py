@@ -1,7 +1,6 @@
 import re
 
 def first_word(text):
-    """ Пошук першого слова """
     match = re.search(r"[a-zA-Z']+", text)
     return match.group(0)
 
